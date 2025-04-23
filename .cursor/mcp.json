@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+        "Sitecore Website": {
+            "url": "https://b0d7-109-108-229-54.ngrok-free.app/sse"
+        }
+    }
+}   
