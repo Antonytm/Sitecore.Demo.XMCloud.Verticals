@@ -46,9 +46,11 @@ export const multisite = defineMiddleware((context, next) => {
     if (url.host.startsWith(hostname)) {
       let path = url.pathname;
       let hasLanguage = false;
+      let detectedLanguage = site.language;
       for (const language of languages) {
-        if (url.pathname.startsWith("/" + language.toLocaleLowerCase())) {
+        if (url.pathname.startsWith("/" + language.code.toLocaleLowerCase())) {
           hasLanguage = true;
+          detectedLanguage = language.code;
         }
       }
 
@@ -57,7 +59,7 @@ export const multisite = defineMiddleware((context, next) => {
       }
 
       url.searchParams.set("sc_site", site.name);
-      url.searchParams.set("sc_lang", site.language);
+      url.searchParams.set("sc_lang", detectedLanguage);
 
       console.log(`Rewriting URL to ${url.protocol}//${url.host}${path}${url.search}`.toLowerCase());
       return context.rewrite(`${url.protocol}//${url.host}${path}${url.search}`.toLowerCase());

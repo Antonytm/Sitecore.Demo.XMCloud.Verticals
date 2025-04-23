@@ -1,11 +1,8 @@
 ---
 import { SitecoreContextMap } from "@astro-sitecore-jss/astro-sitecore-jss";
 const sitecoreContext = SitecoreContextMap.get()["scContext"];
-const availableLanguages = [
-  { code: "en", label: "English" },
-  { code: "fr-CA", label: "Français" },
-  { code: "ja-JP", label: "日本語" },
-];
+import { languages } from "@/lib/languages";
+const availableLanguages = languages;
 
 const pathName = Astro.url.pathname.toLowerCase();
 
