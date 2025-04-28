@@ -40,3 +40,13 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b3f9cd7c-c43b-4497-8ed3-76b62d5bbd3f"
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: mujer y portátil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90f83112-60af-4cb4-a7f9-ef76f86288f6"

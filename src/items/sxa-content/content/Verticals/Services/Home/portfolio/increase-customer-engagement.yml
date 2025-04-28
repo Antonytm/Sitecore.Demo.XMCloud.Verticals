@@ -59,3 +59,23 @@ Languages:
                 <li><strong>Data Overload</strong>: Organizations collect vast amounts of customer data but struggle to extract meaningful insights and actionable strategies.</li>
                 <li><strong>Rising Customer Expectations</strong>: Customers demand seamless, efficient, and personalized experiences across all touchpoints, raising the bar for businesses.</li>
             </ul>
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49f4691f-4232-49f1-a8c0-1174cb9ecc3d"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2582f2e0-2c9e-48b4-9b80-a09c7eb734d1"

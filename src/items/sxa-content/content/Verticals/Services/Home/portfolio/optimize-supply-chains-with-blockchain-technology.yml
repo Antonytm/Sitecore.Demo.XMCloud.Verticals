@@ -59,3 +59,23 @@ Languages:
                 <li><strong>Fraud and Counterfeiting</strong>: Without reliable tracking systems, supply chains are vulnerable to fraud, counterfeiting, and product diversion.</li>
                 <li><strong>Data Silos</strong>: Fragmented systems lead to data silos, hindering collaboration and decision-making among supply chain partners.</li>
             </ul>
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "979ca20b-2a0d-4012-ae5e-d54fbad09c0c"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc240cb6-25c0-478d-b1df-d7bf3272dc04"

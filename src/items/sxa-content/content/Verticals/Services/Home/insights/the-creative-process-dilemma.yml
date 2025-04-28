@@ -8,6 +8,12 @@ SharedFields:
   Hint: Thumbnail
   Value: |
     <image mediaid="{74E7039C-5561-4236-9B5F-33948EFA8B41}" alt="the-creative-process-dilemma" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "97209eaf-c588-481d-b0ff-75fedbc7203e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -104,3 +110,29 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: The creative process dilemma
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc474048-daa7-47bc-ad3c-dfd327824a70"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "the-creative-process-dilemma"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0162841-fb18-4550-9871-9cb287355f62"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "the-creative-process-dilemma"

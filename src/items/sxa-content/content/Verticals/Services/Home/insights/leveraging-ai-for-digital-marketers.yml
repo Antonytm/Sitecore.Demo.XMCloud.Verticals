@@ -117,3 +117,29 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: Leveraging AI for digital marketers
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da6aedb9-f940-4257-b00a-e08513e9e6b1"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "leveraging-ai-for-digital-marketers"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7151813-ef2f-4485-94ad-e42266f08575"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "leveraging-ai-for-digital-marketers"

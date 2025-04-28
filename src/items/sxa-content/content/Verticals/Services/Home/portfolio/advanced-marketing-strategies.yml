@@ -59,3 +59,23 @@ Languages:
                 <li><strong>Dynamic Consumer Behavior</strong>: Rapid changes in consumer preferences and trends require marketers to quickly adapt their strategies.</li>
                 <li><strong>Measuring Campaign Effectiveness</strong>: Accurately assessing the success of marketing campaigns is complex, leading to difficulties in strategy refinement.</li>
             </ul>
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd6728e6-df6a-48d3-b48f-7ed9e0d82d24"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0bc4683-de9e-45c4-8b47-90d0de233518"

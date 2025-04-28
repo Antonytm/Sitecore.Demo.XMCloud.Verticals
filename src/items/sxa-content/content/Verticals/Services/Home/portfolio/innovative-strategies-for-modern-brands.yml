@@ -56,3 +56,23 @@ Languages:
                 <li><strong>Intense Competition</strong>: The digital marketplace is crowded, making it challenging for brands to stand out and capture consumer attention.</li>
                 <li><strong>Data Management and Utilization</strong>: Brands often struggle to collect, analyze, and leverage data effectively to drive meaningful insights and decisions.</li>
             </ul>
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77172d97-78d0-4898-b1ba-6ed63acd36b8"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11b18f05-1498-4f68-8ac4-554cf5498d60"

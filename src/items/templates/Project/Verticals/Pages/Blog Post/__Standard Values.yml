@@ -36,7 +36,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "96341066-47e9-4292-a94d-acb080d09980"
+      Value: "da7646a0-d6c9-4ca1-8685-6f9ec49d3933"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
@@ -52,6 +52,20 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: $name
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4aaa2a96-6977-4b80-8839-817dea9aae84"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aae07d6d-490d-403e-8c62-71a70419188d"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -61,7 +75,7 @@ Languages:
       Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "108f2a5e-e4b9-4f69-a8d8-34bcaeb4dec7"
+      Value: "9362728b-e0c0-415a-aa4e-a8fc97440d7d"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
@@ -77,3 +91,10 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: $name
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63cf5fd4-0cf9-4d15-80b4-5d42c891bebe"

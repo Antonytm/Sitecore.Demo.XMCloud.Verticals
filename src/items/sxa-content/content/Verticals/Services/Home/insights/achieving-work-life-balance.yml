@@ -117,3 +117,29 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: "Achieving work-life balance"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "831aeeea-b0b6-44af-a416-bd4a37a27aee"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "achieving-work-life-balance"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33004af9-3eff-4f9e-ac42-e23e7628b1f2"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "achieving-work-life-balance"

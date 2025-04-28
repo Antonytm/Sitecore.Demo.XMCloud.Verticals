@@ -59,11 +59,32 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e0b8982-31e3-420f-8448-a39ec8914200"
+      Value: "1bc48c73-441b-4af4-9412-c913396fc4c5"
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b48a600e-95ad-444f-aac8-ec2dfa900fb6"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4951785d-73dc-439b-b876-1dca4114bc65"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "afad122c-d585-4aee-a9f0-eaa13e5ca518"
+      Value: "dc793ef8-97dc-4a66-8c49-9758b1ea242b"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97fb101b-d5bf-4899-8f5b-db512d665366"

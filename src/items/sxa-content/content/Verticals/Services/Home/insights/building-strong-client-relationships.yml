@@ -11,6 +11,12 @@ SharedFields:
   Hint: Thumbnail
   Value: |
     <image mediaid="{2A092591-07A1-4C3E-9760-4C32EB157F0D}" alt="building-strong-client-relationships" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "150cff62-331b-4da3-b2ca-affc03d965f4"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -114,3 +120,29 @@ Languages:
     - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: Building strong client relationships
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdde8873-8679-4b36-a488-e0e8c609fb87"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "building-strong-client-relationships"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2da9b918-039f-44de-bd07-79d9d14e071c"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
+      Hint: Title
+      Value: "building-strong-client-relationships"
