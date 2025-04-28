@@ -8,8 +8,43 @@ import type {
 } from "@sitecore-jss/sitecore-jss/layout";
 import config from "../temp/config";
 import Bootstrap from "@/components/Bootstrap.astro";
+import { SitemapService, StaticPath } from "@/lib/sitemap-service";
+import GraphQLRequestClientFactory from "@/lib/graphql/graphql-request-client-factory";
+import { languages } from "@/lib/languages";
 
-export const prerender = false;
+export async function getStaticPaths() {
+  try {
+    const graphQlRequestSitemapFactory = new GraphQLRequestClientFactory();
+    const sitemapService = new SitemapService(graphQlRequestSitemapFactory);
+    let staticPaths: StaticPath[] = [];
+    if (config.sites) {
+      for (const language of languages) {
+        const paths = await sitemapService
+          .getStaticSitemap(language)
+          .then((value) => {
+            return value.map((x) => {
+              x.params.path =
+                `/${language}/${x.params.path ?? ""}`.toLowerCase();
+              return x;
+            });
+          });
+        staticPaths.push(...paths);
+      }
+    } else {
+      const paths = await sitemapService.getStaticSitemap(
+        config.defaultLanguage
+      );
+      staticPaths.push(...paths);
+    }
+
+    return staticPaths;
+  } catch (error) {
+    console.error(error);
+  }
+
+  return [];
+}
+export const prerender = true;
 
 export type SitecoreContextValue = LayoutServiceContext & {
   itemId?: string;
