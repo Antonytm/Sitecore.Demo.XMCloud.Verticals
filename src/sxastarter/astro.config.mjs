@@ -1,17 +1,19 @@
 import { defineConfig } from "astro/config";
 import node from "@astrojs/node";
 import vercel from "@astrojs/vercel";
-import react from '@astrojs/react';
+import react from "@astrojs/react";
+import netlify from "@astrojs/netlify";
 
-const adapter = process.env.VERCEL ?
-vercel({
-  isr: {
-    // 5 minutes
-    expiration: 60 * 5,
-  },
-}) : node({
-  mode: 'standalone',
-});
+const adapter = process.env.VERCEL
+  ? vercel({
+      isr: {
+        // 5 minutes
+        expiration: 60 * 5,
+      },
+    })
+  : node({
+      mode: "standalone",
+    });
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,15 +26,21 @@ export default defineConfig({
     host: true,
   },
   output: "server",
-  adapter: adapter,
+  adapter: netlify({
+    cacheOnDemandPages: true,
+    imageCDN: false,
+  }),
   i18n: {
     locales: ["en", "fr-CA", "ja-JP"],
     defaultLocale: "en",
   },
   devToolbar: {
-    enabled: false
+    enabled: false,
   },
   image: {
-    domains: ['financial.sxastarter.localhost', 'services.sxastarter.localhost'],
+    domains: [
+      "financial.sxastarter.localhost",
+      "services.sxastarter.localhost",
+    ],
   },
 });
