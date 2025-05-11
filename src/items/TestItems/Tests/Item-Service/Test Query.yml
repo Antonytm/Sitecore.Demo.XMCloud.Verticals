@@ -1,0 +1,23 @@
+﻿---
+ID: "53ecc117-39ad-4219-9208-40afef4409bf"
+Parent: "c5084138-742d-4cfe-8be0-f1251723f2f0"
+Template: "79e0e28f-5591-410e-a086-754edc7cef88"
+Path: "/sitecore/content/Home/Tests/Item-Service/Test Query"
+SharedFields:
+- ID: "14923d53-59e9-4627-9c31-97bc1278c455"
+  Hint: Query
+  Value: /sitecore/content/Verticals/*
+- ID: "a9cf9466-7596-4ffe-a38f-2aa1f20714e6"
+  Hint: Database
+  Value: master
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e22f78d1-0603-48c0-82cb-91c39b8f3440"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec181aa2-24e3-4c50-b0ef-15cda07a2ca5"

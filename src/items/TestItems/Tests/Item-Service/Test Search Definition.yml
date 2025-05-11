@@ -1,0 +1,13 @@
+﻿---
+ID: "e80391a9-7f66-45c9-8a12-58d926849de8"
+Parent: "c5084138-742d-4cfe-8be0-f1251723f2f0"
+Template: "339e3a47-95b5-4767-8924-4c04610ae162"
+Path: "/sitecore/content/Home/Tests/Item-Service/Test Search Definition"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52e45d6d-e7ee-4f5d-81a3-2fd3f3398275"

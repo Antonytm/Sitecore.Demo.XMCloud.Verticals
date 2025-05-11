@@ -1,0 +1,12 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "MCPData",
+    "items": {
+        "includes": [
+            {
+                "name": "TestItems",
+                "path": "/sitecore/content/Home/Tests"
+            }
+        ]
+    }
+}
