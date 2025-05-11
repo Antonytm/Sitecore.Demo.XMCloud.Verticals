@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Sitecore.Demo.Verticals.config" />
     <Content Include="App_Config\Include\z.Project\z.Sitecore.MCP.EnablePowerShellEndpoints.config" />
+    <Content Include="App_Config\Include\z.Project\z.Spe.IdentityServer.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
