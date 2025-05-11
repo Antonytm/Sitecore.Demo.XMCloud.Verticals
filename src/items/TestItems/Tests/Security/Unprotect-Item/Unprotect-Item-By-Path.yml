@@ -1,0 +1,33 @@
+﻿---
+ID: "b06c4c73-682a-484a-9190-f7e1741dcada"
+Parent: "2babe58c-0308-43da-82c3-fa0c7772b358"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Home/Tests/Security/Unprotect-Item/Unprotect-Item-By-Path"
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "563e1ca0-e13e-4361-85b7-3f5cc6424ab5"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4997f04f-22bd-408b-aba2-33a7dd73a157"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Unprotect-Item-By-Path"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d23524f1-b7c2-4fb6-a567-eba04ef5c6a8"
