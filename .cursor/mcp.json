@@ -1,23 +1,24 @@
 {
-    "mcpServers": {
-        "Sitecore ngrok": {
-            "url": "https://b0d7-109-108-229-54.ngrok-free.app/sse"
-        },
-        "Sitecore": {
-            "type": "stdio",
-            "command": "npx",
-            "args": ["@antonytm/mcp-sitecore-server@latest"],
-            "env": {
-              "TRANSPORT": "stdio",
-              "GRAPHQL_ENDPOINT": "https://xmcloudcm.localhost/sitecore/api/graph/",
-              "GRAPHQL_SCHEMAS": "edge,master,core",
-              "GRAPHQL_API_KEY": "{6D3F291E-66A5-4703-887A-D549AF83D859}",
-              "GRAPHQL_HEADERS": "",
-              "ITEM_SERVICE_DOMAIN": "sitecore",
-              "ITEM_SERVICE_USERNAME": "claude",
-              "ITEM_SERVICE_PASSWORD": "b",
-              "ITEM_SERVICE_SERVER_URL": "https://xmcloudcm.localhost/"
-            }
-          }
+  "mcpServers": {
+    "Sitecore": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@antonytm/mcp-sitecore-server@0.2.2"],
+      "env": {
+        "TRANSPORT": "stdio",
+        "GRAPHQL_ENDPOINT": "https://xmcloudcm.localhost/sitecore/api/graph/",
+        "GRAPHQL_SCHEMAS": "edge,master,core",
+        "GRAPHQL_API_KEY": "{6D3F291E-66A5-4703-887A-D549AF83D859}",
+        "GRAPHQL_HEADERS": "",
+        "ITEM_SERVICE_DOMAIN": "sitecore",
+        "ITEM_SERVICE_USERNAME": "claude",
+        "ITEM_SERVICE_PASSWORD": "b",
+        "ITEM_SERVICE_SERVER_URL": "https://xmcloudcm.localhost/",
+        "POWERSHELL_DOMAIN": "sitecore",
+        "POWERSHELL_USERNAME": "admin",
+        "POWERSHELL_PASSWORD": "b",
+        "POWERSHELL_SERVER_URL": "https://xmcloudcm.localhost/"
+      }
     }
-}   
+  }
+}

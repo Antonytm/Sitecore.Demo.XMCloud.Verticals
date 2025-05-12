@@ -1,24 +1,17 @@
 ﻿---
-ID: "f8ae75e0-ca84-43d9-8b04-14d97bd2f601"
-Parent: "a446536e-af08-42ff-9f4e-77f057a64bfb"
+ID: "1f9d7a0f-d002-41d3-8d8e-35376cd2a62a"
+Parent: "dbb5636b-d0f9-4381-aeaa-91167f259973"
 Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: "/sitecore/content/Home/Tests/Security/Protect-Item/Protect-Item-By-Id"
+Path: "/sitecore/content/Home/Tests/Security/Set-Item-ACL/Set-Item-ACL-By-Id"
 SharedFields:
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Value: 
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "94a4fb4c-6a49-4cda-a2f5-2ef0bb0259e6"
+  Value: "f2e2e2bc-d14b-4136-9b7f-fb5c14a00922"
 Languages:
 - Language: en
-  Fields:
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "2c376e87-84ed-4764-bf4b-24fd7bb28f51"
   Versions:
   - Version: 1
     Fields:
@@ -27,7 +20,7 @@ Languages:
       Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
     - ID: "75577384-3c97-45da-a847-81b00500e250"
       Hint: Title
-      Value: "Protect-Item-By-Id"
+      Value: "Clear-Item-ACL-By-Id"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f597b46-ed18-4cab-82bf-612ac005ee3e"
+      Value: "6416a24a-e668-44d4-a5b3-9110cb6392d0"

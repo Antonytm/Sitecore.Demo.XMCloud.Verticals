@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Sitecore": {
+      "url": "http://localhost:3001/sse",
+      "alwaysAllow": [
+        "item-service-get-item-by-path",
+        "item-service-get-item-children",
+        "item-service-get-languages"
+      ]
+    }
+  }
+}
