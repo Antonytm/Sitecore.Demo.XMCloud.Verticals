@@ -5,7 +5,8 @@
         "includes": [
             {
                 "name": "TestItems",
-                "path": "/sitecore/content/Home/Tests"
+                "path": "/sitecore/content/Home/Tests",
+                "scope": "ItemAndDescendants"
             }
         ]
     }
