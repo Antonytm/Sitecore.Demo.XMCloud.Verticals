@@ -1,0 +1,26 @@
+﻿---
+ID: "a7401f47-01ae-42fc-af62-3e4cb3940ee0"
+Parent: "c40e8998-4154-407b-ad40-4378059f93e4"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Home/Tests/Provider/Get-Item/Get-Item-By-Query"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d9a475d4-32e2-4b07-b553-32b5f2121d19"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Get-Item-By-Query"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8c1f857-a095-46ce-b0eb-a81968abe8d2"
