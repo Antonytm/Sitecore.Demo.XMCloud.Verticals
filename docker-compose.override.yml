@@ -111,6 +111,14 @@ services:
       - type: bind
         source: .\docker\data\solr
         target: c:\data
+  
+  # Add test Solr cores for the PowerShell scripts to testing.
+  solr-init:
+    image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-solr-init-custom-indexes:${SITECORE_VERSION}
+    build:
+      context: ./docker/build/solrinit
+      args:
+        BASE_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-solr-init:${SITECORE_VERSION}
 
   # Use our custom CM image with added modules and solution code.
   # Folders are mounted below for code deployment and log output. See Dockerfile for details.
