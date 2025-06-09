@@ -7,6 +7,11 @@
                 "name": "TestItems",
                 "path": "/sitecore/content/Home/Tests",
                 "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "TestLayouts",
+                "path": "/sitecore/layout/Layouts/Feature/Tests",
+                "scope": "ItemAndDescendants"
             }
         ]
     }
