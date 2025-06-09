@@ -1,0 +1,13 @@
+﻿---
+ID: "800c8daa-207d-43a7-8c69-ec84f1af661d"
+Parent: "f2fb421a-756a-4ec2-972e-cc141453dd86"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: "/sitecore/layout/Layouts/Feature/Tests/Get-Layout/Another Language"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1619c53-45ee-496f-bcc7-6bd77d46504d"
