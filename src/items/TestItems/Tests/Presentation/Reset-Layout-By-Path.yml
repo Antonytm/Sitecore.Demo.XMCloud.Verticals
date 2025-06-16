@@ -1,0 +1,39 @@
+﻿---
+ID: "c4e97da7-4c43-44e8-afbb-b1b634beb022"
+Parent: "778e91a1-4140-438e-8cef-0d26124f6c1f"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Home/Tests/Presentation/Reset-Layout-By-Path"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f62799b9-4d49-433f-9e98-6f3fb38fa2d6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Reset-Layout-By-Path"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e52b2a9b-5012-4830-a040-0e87af5051bb"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Reset-Layout-By-Path"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8145f869-1e1b-495c-912a-05b5963abe19"

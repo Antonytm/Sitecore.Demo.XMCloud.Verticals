@@ -1,0 +1,13 @@
+﻿---
+ID: "a51bf5c0-cd68-48a5-884b-1bd4bd08d57c"
+Parent: "e0964fac-818c-4414-a970-2a9c2f903185"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: "/sitecore/layout/Layouts/Feature/Tests/Merge-Layout/Layout"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b083416-fd39-4dd1-8b35-3e052ef8dcec"

@@ -1,0 +1,13 @@
+﻿---
+ID: "c088204d-9c63-4a70-8846-d7233d660b0a"
+Parent: "3bb90540-9fbb-4b98-94a1-aebe6c9bc895"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: "/sitecore/layout/Layouts/Feature/Tests/Reset-Layout/Initial Layout"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc39795f-eccc-4f9f-a8cb-177b34d4f18b"
