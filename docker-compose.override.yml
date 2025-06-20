@@ -1,5 +1,4 @@
 services:
-
   # A Windows-based nodejs base image
   nodejs:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-nodejs:${VERSION:-latest}
@@ -111,7 +110,7 @@ services:
       - type: bind
         source: .\docker\data\solr
         target: c:\data
-  
+
   # Add test Solr cores for the PowerShell scripts to testing.
   solr-init:
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-solr-init-custom-indexes:${SITECORE_VERSION}
@@ -153,4 +152,23 @@ services:
       Sitecore_GraphQL_ExposePlayground: true
       SITECORE_SPE_ELEVATION: "Allow"
     entrypoint: powershell -Command "& C:/tools/entrypoints/iis/XmCloudDevelopment.ps1"
-                                                          	
+  mcp-server:
+    image: antonytm/mcp-sitecore-windows:0.20.2
+    depends_on:
+      - cm
+    environment:
+      TRANSPORT: streamable-http
+      GRAPHQL_ENDPOINT: http://cm/sitecore/api/graph/
+      GRAPHQL_SCHEMAS: edge
+      GRAPHQL_API_KEY: "{6D3F291E-66A5-4703-887A-D549AF83D859}"
+      GRAPHQL_HEADERS: ""
+      ITEM_SERVICE_DOMAIN: sitecore
+      ITEM_SERVICE_USERNAME: admin
+      ITEM_SERVICE_PASSWORD: b
+      ITEM_SERVICE_SERVER_URL: http://cm/
+      POWERSHELL_DOMAIN: sitecore
+      POWERSHELL_USERNAME: admin
+      POWERSHELL_PASSWORD: b
+      POWERSHELL_SERVER_URL: http://cm/
+    ports:
+      - 5001:3001

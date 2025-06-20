@@ -105,3 +105,7 @@ This will work only on Windows and deploy all Content Management roles and inter
 Go to the `src\sxastarter\src\assets\sass\abstracts\vars` and update the colors in the `_colors.scss` file. Note, that each site has it's own color set for both light and dark theme.
 
 Note, that each site has a special `site-*` class, this allows to apply custom CSS the specific site(s).
+
+## MCP server
+
+Sitecore starts with Sitecore MCP server! In order to use it, you need to set the `http://127.0.0.1:5001/mcp` URL in Cursor/VS Code + Copilot/ Clade Code. If you want to share the URL with your team, you need to add `authorization` header by adding `AUTORIZATION_HEADER` environment variable with the value of some secret string.
