@@ -1,0 +1,13 @@
+﻿---
+ID: "1508c6b6-f4ff-4c18-a28c-506eea12c8b1"
+Parent: "84abf2e5-6581-4024-9f15-230540b10d48"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: "/sitecore/layout/Renderings/Feature/Tests/Switch-Rendering"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19358050-b409-42ef-bd3a-b62c2d47f781"

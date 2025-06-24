@@ -1,0 +1,39 @@
+﻿---
+ID: "4f0080af-e681-4b89-95f9-bc3669546554"
+Parent: "778e91a1-4140-438e-8cef-0d26124f6c1f"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Home/Tests/Presentation/Remove-Rendering-By-Id"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "44925938-94da-4d5b-8e89-fa79129837b0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Remove-Rendering-By-Id"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccd9adf1-656b-43d3-b4de-14ecba0821fc"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: "Remove-Rendering-By-Id"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dade4dfc-4250-400c-abe4-7d3f2c20bc94"
