@@ -18,7 +18,7 @@ SharedFields:
   Value: "https://basic.sxastarter.localhost.astro/"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "http://renderingastro:3000/api/editing/render"
+  Value: "http://localhost:3000/api/editing/render"
 Languages:
 - Language: "de-DE"
   Versions:
