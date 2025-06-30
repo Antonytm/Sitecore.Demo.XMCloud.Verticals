@@ -73,7 +73,7 @@
     <Content Include="App_Config\Include\Sitecore.Demo.Verticals.config" />
     <Content Include="App_Config\Include\z.Project\z.Sitecore.MCP.EnablePowerShellEndpoints.config" />
     <Content Include="App_Config\Include\z.Project\z.Spe.IdentityServer.config" />
-    <Content Include="App_Config\Include\z.Project\z.TestIndexing.config" />
+    <None Include="App_Config\Include\z.Project\z.TestIndexing.config.disabled" />
     <Content Include="App_Config\Include\z.Project\z.ItemService.AllowHttp.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
