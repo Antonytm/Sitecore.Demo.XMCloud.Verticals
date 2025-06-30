@@ -1,6 +1,6 @@
 {
   "renderingHosts": {
-    "xmcloudpreview": {
+    "astro": {
       "path": "./src/sxastarter",
       "nodeVersion": "20.12.0",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
@@ -8,6 +8,15 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "preview"
+    },
+    "nextjs": {
+      "path": "./src/sxastarter-nextjs",
+      "nodeVersion": "20.12.0",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
   },
   "transforms": [
@@ -30,9 +39,7 @@
         "indexNames": []
       },
       "scsModules": {
-        "modules": [
-          "HeadlessSxaWebsite-Media"
-        ]
+        "modules": ["HeadlessSxaWebsite-Media"]
       },
       "warmUpCm": {
         "urls": [
@@ -45,15 +52,9 @@
       },
       "publish": {
         "path": "/sitecore",
-        "languages": [
-          "en",
-          "fr-CA",
-          "ja-JP"
-        ],
+        "languages": ["en", "fr-CA", "ja-JP"],
         "itemIds": [],
-        "targets": [
-          "Edge"
-        ],
+        "targets": ["Edge"],
         "republish": false
       }
     }
