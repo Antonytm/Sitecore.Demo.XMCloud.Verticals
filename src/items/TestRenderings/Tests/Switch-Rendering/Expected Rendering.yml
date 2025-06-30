@@ -1,0 +1,13 @@
+﻿---
+ID: "1c8b443b-e78a-4ae7-ab30-cb0166299877"
+Parent: "1508c6b6-f4ff-4c18-a28c-506eea12c8b1"
+Template: "f1f1d639-4f54-40c2-8be0-81266b392ceb"
+Path: "/sitecore/layout/Renderings/Feature/Tests/Switch-Rendering/Expected Rendering"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bef93d21-28e1-4448-be2c-de24090a5a85"
