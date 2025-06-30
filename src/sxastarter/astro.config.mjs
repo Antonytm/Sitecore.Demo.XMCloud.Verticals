@@ -25,6 +25,7 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
+    allowedHosts: true, // This allows the server to respond to requests from any host, as we don't know XM cloud rendering hostname in advance.
   },
   output: "server",
   adapter: adapter,
