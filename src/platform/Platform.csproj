@@ -75,6 +75,7 @@
     <Content Include="App_Config\Include\z.Project\z.Spe.IdentityServer.config" />
     <None Include="App_Config\Include\z.Project\z.TestIndexing.config.disabled" />
     <Content Include="App_Config\Include\z.Project\z.ItemService.AllowHttp.config" />
+    <Content Include="App_Config\Include\z.Project\z.LayoutService.ExcludeHostForImages.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
